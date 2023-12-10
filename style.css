@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+}
+/* Style the navbar */
+.navbar {
+    background-color:#de6119; /* Background color for the navbar */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+/* Style the logo */
+.logo img {
+    height: 90px; /* Adjust the height as needed */
+}
+
+/* Style the buttons */
+.buttons a {
+    color: #fff; /* Text color for the buttons */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px 20px; /* Add padding to the buttons */
+    margin: 0 10px; /* Add margin to separate the buttons */
+    border: 1px solid #fff; /* Add a border to the buttons */
+    border-radius: 5px; /* Add rounded corners to the buttons */
+}
+
+/* Style the buttons on hover */
+.buttons a:hover {
+    background-color: #fff; /* Background color on hover */
+    color: #333; /* Text color on hover */
+}
+
+body, html {
+    height: 100%;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* The image used */
+    background-image: url("background.jpg");
+  
+    /* Add the blur effect */
+    filter: blur(8px);
+    -webkit-filter: blur(2px);
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: no;
+  }
+  
+  /* Position text in the middle of the page/image */
+  .bg-text {
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+  }
+  /* Add some styles for the contact form */
+.contact-form {
+    background-color: #f0f0f0; /* Background color for the contact form */
+    padding: 2px;
+    margin: 20px;
+    border: 1px solid #ccc; /* Add a border to the contact form */
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+}
+
+.contact-form h2 {
+    margin-bottom: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    display: block;
+    width: 60%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.contact-form .submit-button {
+    background-color: #283048; /* Button background color */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.contact-form .submit-button:hover {
+    background-color: #555; /* Button background color on hover */
+}
+/* Add styles for the photography section */
+.photography-section {
+   
+    padding: 20px;
+    text-align: center;
+}
+
+.photography-section h2 {
+    margin-bottom: 20px;
+}
+
+.photo-gallery {
+    display: fixed;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.photo {
+    margin: 10px;
+}
+
+.photo img {
+    width: 300px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Adjust any additional styling as needed */
+footer {
+    background-color: #283048;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info {
+    font-size: 16px;
+}
+
+.contact-info p {
+    margin: 5px 0;
+}
