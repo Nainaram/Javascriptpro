@@ -6,7 +6,8 @@ function whospaying(names){
     var numberofperson = names.length;
     var randomPersonPosition = Math.floor(Math.random()*numberofperson);
     var randomPerson = names[randomPersonPosition];
-    return randomPerson + "is going to pay the bill today"
+    //return randomPerson + "is going to pay the bill today"
+    console.log( randomPerson + "is going to pay the bill");
 }
     Friends = ['manikanta','sai','pavan','vikram','shahid','tarun'];
     whospaying(Friends)
