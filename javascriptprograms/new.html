@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DOM Structure Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    #myList {
+      list-style-type: none;
+      padding: 0;
+    }
+    button {
+      margin-top: 10px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DOM Structure Example</h1>
+
+  <ul id="myList">
+    <!-- List items will be added dynamically here -->
+  </ul>
+
+  <button id="addItemButton">Add List Item</button>
+
+  <script>
+    // Function to add a new list item
+    function addListItem() {
+      // Create a new list item
+      var newItem = document.createElement("li");
+      
+      // Set the text content of the list item
+      newItem.textContent = "New Item";
+
+      // Append the new list item to the unordered list
+      document.getElementById("myList").appendChild(newItem);
+    }
+
+    // Add a click event listener to the button
+    document.getElementById("addItemButton").addEventListener("click", addListItem);
+  </script>
+
+</body>
+</html>
