@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colorpicker</title>
+</head>
+<body id="display-color">
+    <div id="display-color" >
+        <input type="color" name="" id="colorpicker" onchange="updateColor()">
+    </div>
+    <script> 
+     let color =document.getElementById("colorpicker");
+     function updateColor(){
+    document.getElementById("display-color").style.backgroundColor = color.value;
+    }</script>
+</body>
+</html>
